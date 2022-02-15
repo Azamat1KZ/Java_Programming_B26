@@ -1,0 +1,34 @@
+package day_08_relational_operators;
+
+public class UpdateVAriable1 {
+    public static void main(String[] args) {
+
+        // adding 1 to a variable
+
+        int a = 10;
+        a = 11;
+        a++;
+        ++a;
+        a = a + 1;
+
+
+
+    // add 10 to the variable
+        int b = 4;
+        // 10 times to the variable
+        b= 14;
+        b = b + 10; // reads the value of b, adds 10 to it, then the result is stored back into b by reassigning
+        b += 10; // this code is the same as --> b = b + 10
+
+
+        int count = 0;
+        count += 5;
+        System.out.println(count);
+        count -= 10;
+        System.out.println(count);
+
+        count *= 2;
+        System.out.println(count);
+
+    }
+}
