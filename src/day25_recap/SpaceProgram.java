@@ -1,4 +1,4 @@
-package day24_loops;
+package day25_recap;
 
 public class SpaceProgram {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ If there is already a space in the String put an underscore
 		space 	-> s p a c e
 		more words -> m o r e _ w o r d s
          */
-        String word="Hello World";
+        String word="Today is monday";
 
         String newWord="";
 
