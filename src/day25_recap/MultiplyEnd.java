@@ -1,4 +1,4 @@
-package day24_loops;
+package day25_recap;
 
 import java.util.Scanner;
 
