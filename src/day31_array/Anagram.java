@@ -1,4 +1,4 @@
-package Day31_array;
+package day31_array;
 
 import java.util.Arrays;
 
