@@ -7,8 +7,9 @@ public class BreakInNested {
             if (i == 3){
                 break;
             }
+
             //when the above break is run we stop the outer loop, which means both will no longer run. We get 3 full iterations of the outer loop, including the inner loop running start to finish then when i is equal to 3 the outer loop will stop
-            for (int j = 0; j < 2; j++) {
+            for (int j = 0; j < 5; j++) {
                 System.out.println("j " + j);
                 // break; if the break is here, the outer loop will iterate fully. but the inner loop execute the first iteration and then the break runs, which stops the inner loop. Code resumes after the outer loop iteration finishes
             }
