@@ -24,7 +24,7 @@ public class OurArrayClass {
 
     }
     public static void printArray(int [] nums){
-        String result = "";
+        String result = "START | ";
         for(int num : nums){
             result += num + " ~ ";
         }
@@ -40,5 +40,7 @@ public class OurArrayClass {
         middleElement(numbers);
 
         printArray(numbers);
+
+        printArray(new int[]{40, 20, 10});
     }
 }
