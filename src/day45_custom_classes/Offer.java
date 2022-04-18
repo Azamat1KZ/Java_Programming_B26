@@ -1,4 +1,4 @@
-package day44_custom_classes;
+package day45_custom_classes;
 
 public class Offer {
     /*
@@ -53,10 +53,10 @@ public class Offer {
     Create a separate class to create and test the Offer objects
      */
     public String toString(){
-        String info = company + " in " + location;
-        info += "\n" + (salary > 0 ? salary : "");
-        info += "\n" + (isFullTime ? "Full time" : "Contract");
-        info += "\n" + (numberOfPTO > 0 ? numberOfPTO : "");
+        String info = "\n" + company + " in " + location;
+        info += " - " + (salary > 0 ? salary : "");
+        info += " - " + (isFullTime ? "Full time" : "Contract");
+        info += " - " + (numberOfPTO > 0 ? numberOfPTO : "");
 
         return info;
 
