@@ -1,6 +1,6 @@
 package day44_custom_classes;
 
-public class Offer {
+public class Offer2 {
     /*
         create a class called Offer
 
@@ -26,32 +26,29 @@ public class Offer {
 
     */
 
-    public Offer(String company, String location) {
+    public Offer2(String company, String location) {
         this.company = company;
         this.location = location;
     }
 
-    public Offer(String company, String location, double salary) {
-        this.company = company;
-        this.location = location;
+    public Offer2(String company, String location, double salary) {
+        this(company, location);
         this.salary = salary;
     }
 
-    public Offer(String company, String location, double salary, boolean isFullTime, int numberOfPTO) {
-        this.company = company;
-        this.location = location;
-        this.salary = salary;
+    public Offer2(String company, String location, double salary, boolean isFullTime, int numberOfPTO) {
+        this(company, location, salary);
         this.isFullTime = isFullTime;
         this.numberOfPTO = numberOfPTO;
     }
-/*
-        - method:
+    /*
+            - method:
 
-            toString()
-                print all the employees information
+                toString()
+                    print all the employees information
 
-    Create a separate class to create and test the Offer objects
-     */
+        Create a separate class to create and test the Offer objects
+         */
     public String toString(){
         String info = company + " in " + location;
         info += "\n" + (salary > 0 ? salary : "");
