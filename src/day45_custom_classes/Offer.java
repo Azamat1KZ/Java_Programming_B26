@@ -14,7 +14,6 @@ public class Offer {
     boolean isFullTime;
     int numberOfPTO;
 
-
     /*
         - constructor
 
