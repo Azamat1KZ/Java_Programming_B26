@@ -21,4 +21,6 @@ public class MiddleChar {
             System.out.println("With substring: " + s.substring(mid, mid + 1));
         }
     }
+
+
 }
