@@ -1,6 +1,6 @@
 package Practice.GentritsTasks;
 
-public class Task1 {
+public class OddEven {
     public void OddEven() {
         int num = 10;
         if (num % 2 != 0) {
@@ -44,7 +44,7 @@ public class Task1 {
 
 
     public static void main(String[] args) {
-        new Task1().OddEven();
+        new OddEven().OddEven();
 
     }
 }
