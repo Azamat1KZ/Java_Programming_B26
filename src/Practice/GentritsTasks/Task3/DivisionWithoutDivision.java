@@ -1,7 +1,5 @@
 package Practice.GentritsTasks.Task3;
 
-import Practice.GentritsTasks.Task1.code;
-
 public class DivisionWithoutDivision {
 
     public static int divide(int x, int y)
